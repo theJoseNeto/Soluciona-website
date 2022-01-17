@@ -1,0 +1,52 @@
+:root {
+    font-size: 60%; 
+    --primary-color: #6A0BD9;
+    --primary-color-dark: #5a0ab5;
+    --background-primary-color: #ccc;
+    --cta-buttons-color: #04d361;
+    --cta-buttons-dark-color: #04bf58;
+}
+
+body{
+    background-color: var(--background-primary-color);
+    color: var(--primary-color);
+} 
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.logo-soluc{
+    width: 100px;
+}
+
+html, body, #root{
+    height: 100vh;
+}
+
+/* #root{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}  */
+
+body,input, button, textarea{
+    font-family:'Poppins';
+    font-size: 1.6rem;
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media (min-width: 700px){
+    :root{
+        font-size: 62.5%;
+    }
+}
+
+
+

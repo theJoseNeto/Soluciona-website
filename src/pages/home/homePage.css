@@ -1,0 +1,46 @@
+.page-home{
+    padding: 0 15px;
+}
+.cta-title{
+    font-size: 45px;
+    display: block;
+    width: 80%;
+    margin: 80px auto 0;
+}
+
+.container-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.arrow-icon{
+    text-align: center;
+    width: 100vw;
+    font-size: 6rem;
+    background: transparent;
+    border: none;
+    color: var(--primary-color);
+    animation-name: arrow-float;
+    animation-duration: .5s; 
+    animation-iteration-count: infinite ;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes arrow-float {
+    0% {
+        transform: translateY(0);
+    }
+
+    100%{
+        transform: translateY(10px);
+    }
+    0% {
+        transform: translateY(0);
+    }
+
+}
+
