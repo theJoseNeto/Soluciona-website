@@ -6,7 +6,11 @@ export default function Header(){
     return(
         <header>
             <img className="logo-soluc" src={logovazada}/>
-            <button className="contact-button">Fale <br/> conosco</button>
+
+            <a  className="contact-button" href="https://instagram.com/soluciona.io/" target="_blank">
+                Fale conosco
+            </a>
+
         </header> 
     )
 }
