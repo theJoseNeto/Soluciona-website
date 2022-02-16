@@ -7,7 +7,7 @@ export default function Header(){
         <header>
             <img className="logo-soluc" src={logovazada} alt="soluciona"/>
 
-            <a href="https://instagram.com/soluciona.io/" target="_blank"  rel="noopener" className="contact-button">
+            <a href="https://instagram.com/soluciona.io/" className="contact-button">
                 Fale conosco
             </a>
 
