@@ -5,9 +5,9 @@ import './style.css';
 export default function Header(){
     return(
         <header>
-            <img className="logo-soluc" src={logovazada}/>
+            <img className="logo-soluc" src={logovazada} alt="soluciona"/>
 
-            <a  className="contact-button" href="https://instagram.com/soluciona.io/" target="_blank">
+            <a href="https://instagram.com/soluciona.io/" target="_blank"  rel="noopener" className="contact-button">
                 Fale conosco
             </a>
 
