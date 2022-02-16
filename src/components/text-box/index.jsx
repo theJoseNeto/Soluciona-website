@@ -1,4 +1,3 @@
-import {useState, useEffect} from "react";
 import "./style.css";
 
 export default function TextBox(props){
