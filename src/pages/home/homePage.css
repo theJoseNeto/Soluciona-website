@@ -46,6 +46,29 @@
     }
 
 }
+.container-plan-images img{
+    width: 100vw;
+    border-radius: 5px;
+}
+
+
+.container-child-plan-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container-child-plan-images a{
+    text-align: center;
+    margin-top: 20px;
+    width: 60%;
+}
+
+
+
+
 @media all and (min-width : 786px) {
 
     .cta-title{
@@ -53,6 +76,14 @@
     }
     .container-arrow{
         margin-bottom: 100px;
+    }
+
+    .container-plan-images{
+        display:  flex;
+    }
+    .container-plan-images img{
+        width: 50vw;
+
     }
 
 }

@@ -4,7 +4,8 @@ import Header from"../../components/header";
 import TextBox from "../../components/text-box";
 import {Footer} from "../../components/footer";
 import {AiOutlineArrowDown} from 'react-icons/ai';
-
+import pgtoUnique from '../../assets/images/col01.jpg';
+import pgtoMounth from '../../assets/images/col02.jpg';
 
 export default function Home(){
 
@@ -31,11 +32,25 @@ export default function Home(){
             text='Muitos comerciantes ainda estão presos à mentalidade de que seu comércio local funciona a base do boca a boca. A pandemia veio e mostrou que isso está errado, sem soluções tecnológicas seu comércio não vai pra frente.'/> 
 
             <TextBox 
-            title='"Sou um pequeno comerciante, investir em tecnologia é caro pra mim"' 
-            text='A soluciona veio para mudar isso, nós temos um serviço acessível em que o pequeno e médio empreendedor consegue obter os mecanismos básicos para funcionar na internet pagando pouco. Ficou interessado? Clique em "fale conosco".'/>
+            title='Até mesmo os pequenos comerciantes podem' 
+            text='A soluciona veio para democratizar o acesso a serivços em que o pequeno e médio empreendedor consegue obter os mecanismos básicos para funcionar na internet pagando pouco. Role a tela para mais informações.'/>
         </section>
-            
-                 
+
+        <section className="container-plan-images">
+
+        <div className="col-02 container-child-plan-images">
+            <img src={pgtoUnique}/>
+            <a href="https://bit.ly/soluciona-mensal"  className="default-cta-button">Adquirir plano</a>
+        </div>
+
+        <div className="col-01 container-child-plan-images">
+            <img src={pgtoMounth}/>
+            <a href="bit.ly/soluciona-unico" className="default-cta-button">Adquirir plano</a>
+        </div>
+
+
+        </section>
+        
         
         </div>
         <Footer/>

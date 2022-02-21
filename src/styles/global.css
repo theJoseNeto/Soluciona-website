@@ -8,7 +8,6 @@
 }
 
 body{
-    background-color: var(--background-primary-color);
     color: var(--primary-color);
 } 
 
@@ -28,6 +27,19 @@ body,input, button, textarea{
     font-family:'Poppins';
     font-size: 1.6rem;
 }
+
+
+
+.default-cta-button{
+    background-color: var(--cta-buttons-color);
+    color: white;
+    padding: 15px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
 
 
 @media (min-width: 700px){
