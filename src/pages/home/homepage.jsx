@@ -14,7 +14,9 @@ export default function Home(){
         <div className="page-home">
             <Header/>
            
-            <h1 className="cta-title">Sabia que a soluciona pode te ajudar ainda hoje?</h1>
+           <div className="cta-container-title">
+            <h1 className="cta-title">A soluciona pode te ajudar ainda hoje.</h1>
+            
             <div className="container-arrow">
            
             <p>Em poucos cliques você pode ter o que seu negócio precisa.</p>
@@ -23,6 +25,7 @@ export default function Home(){
             <button className="arrow-icon">
              <AiOutlineArrowDown />
             </button>
+        </div>
         </div>
 
         <section className="container-text-box">
@@ -33,22 +36,32 @@ export default function Home(){
 
             <TextBox 
             title='Até mesmo os pequenos comerciantes podem' 
-            text='A soluciona veio para democratizar o acesso a serivços em que o pequeno e médio empreendedor consegue obter os mecanismos básicos para funcionar na internet pagando pouco. Role a tela para mais informações.'/>
+            text='A soluciona veio para democratizar o acesso a serviços em que o pequeno e médio empreendedor consegue obter os mecanismos básicos para funcionar na internet pagando pouco. Role a tela e conheça os serviços disponíveis.'/>
         </section>
+
 
         <section className="container-plan-images">
 
-        <div className="col-02 container-child-plan-images">
-            
-            <img src={pgtoUnique} alt="services"/>
-            <a href="https://bit.ly/mensal-soluciona"  className="default-cta-button">Adquirir plano</a>
+        <div className="container-plan-images-row-01">
+            <div className="product-name">
+                <h2>Agregador de links</h2>
+                <p>Você no controle, direcione seus cliente para onde quiser.</p>
+            </div>
         </div>
 
-        <div className="col-01 container-child-plan-images">
-            <img src={pgtoMounth} alt="services"/>
-            <a href="https://bit.ly/pgto-unico-soluciona" className="default-cta-button">Adquirir plano</a>
-        </div>
+        <div className="container-plan-images-row-02">
 
+            <div className="col-02 container-child-plan-images">
+                <img src={pgtoUnique} alt="services"/>
+                <a href="https://bit.ly/mensal-soluciona"  className="default-cta-button">Adquirir plano</a>
+            </div>
+
+            <div className="col-01 container-child-plan-images">
+                <img src={pgtoMounth} alt="services"/>
+                <a href="https://bit.ly/pgto-unico-soluciona" className="default-cta-button">Adquirir plano</a>
+            </div>
+
+        </div>
 
         </section>
         
