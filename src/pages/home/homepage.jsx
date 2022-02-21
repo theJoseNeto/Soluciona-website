@@ -39,13 +39,14 @@ export default function Home(){
         <section className="container-plan-images">
 
         <div className="col-02 container-child-plan-images">
+            
             <img src={pgtoUnique} alt="services"/>
-            <a href="https://bit.ly/soluciona-mensal"  className="default-cta-button">Adquirir plano</a>
+            <a href="https://bit.ly/mensal-soluciona"  className="default-cta-button">Adquirir plano</a>
         </div>
 
         <div className="col-01 container-child-plan-images">
             <img src={pgtoMounth} alt="services"/>
-            <a href="bit.ly/soluciona-unico" className="default-cta-button">Adquirir plano</a>
+            <a href="https://bit.ly/pgto-unico-soluciona" className="default-cta-button">Adquirir plano</a>
         </div>
 
 
