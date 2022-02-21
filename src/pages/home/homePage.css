@@ -5,8 +5,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-
 
 }
 
@@ -14,8 +12,6 @@
     font-size: 35px;
     text-align: center;
 }
-
-
 
 .container-arrow {
     display: flex;
@@ -72,7 +68,7 @@
 .container-child-plan-images{
     border: solid 2px var(--primary-color);
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 20px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,6 +83,10 @@
 }
 
 
+.container-plan-images-row-01 p {
+    margin-bottom: 20px;
+    width: 95vw
+}
 
 
 @media all and (min-width : 786px) {
@@ -107,12 +107,19 @@
         text-align: center;
     }
 
+    .container-plan-images-row-01 p{
+        margin-top: 1.2rem;
+
+    }
+
+
     .container-plan-images-row-02{
         margin-top: 40px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
+
     .container-plan-images{
         display:  flex;
     }
