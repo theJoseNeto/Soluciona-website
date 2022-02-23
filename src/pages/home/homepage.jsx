@@ -47,7 +47,7 @@ export default function Home() {
                     <div className="container-plan-images-row-02">
                         <div className="col-02 container-child-plan-images">
                             <img src={pgtoUnique} alt="services" />
-                            <a href="https://bit.ly/agregadorDeLink-soluciona" className="default-cta-button">Adquirir plano</a>
+                            <a href="https://api.whatsapp.com/send/?phone=5581983084339&text=Ol%C3%A1%2C+acabei+de+acessar+o+site+e+gostaria+de+entender+mais+sobre+a+soluciona+e+o+servi%C3%A7o+oferecido.+Poderia+me+explicar+um+pouco+mais%3F&app_absent=0" className="default-cta-button">Adquirir plano</a>
                         </div>
                     </div>
                 </section>
