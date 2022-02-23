@@ -20,12 +20,12 @@ export default function Home() {
                     <div className="container-arrow">
                         <p>Em poucos cliques você pode ter o que seu negócio precisa.</p>
                         <p><strong>Saiba mais.</strong></p>
-                        <button className="arrow-icon">
+                        <a className="arrow-icon" href="#text-boxes">
                             <AiOutlineArrowDown />
-                        </button>
+                        </a>
                     </div>
                 </div>
-                <section className="container-text-box">
+                <section id="text-boxes" className="container-text-box">
                     <TextBox
                         title="Onde está o problema?"
                         text='Muitos comerciantes ainda estão presos à mentalidade de que seu comércio local funciona a base do boca a boca. A pandemia veio e mostrou que isso está errado, sem soluções tecnológicas seu comércio não vai pra frente.' />
