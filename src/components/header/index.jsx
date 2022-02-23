@@ -10,7 +10,7 @@ export default function Header(){
         <header>
             <img className="logo-soluc" src={logovazada} alt="soluciona"/>
             
-            <a  className="contact-button" href="https://instagram.com/soluciona.io/">
+            <a  className="contact-button" href="https://wa.me/5581983084339/">
                 <AiOutlineWhatsApp className="wpp-button"></AiOutlineWhatsApp>                
                 <p>Fale conosco ;)</p>
             </a>
