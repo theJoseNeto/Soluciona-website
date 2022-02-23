@@ -2,7 +2,6 @@ import "./homePage.css";
 import '../../styles/global.css';
 
 import pgtoUnique from '../../assets/images/col01.jpg';
-import pgtoMounth from '../../assets/images/col02.jpg';
 
 import Header from "../../components/header";
 import TextBox from "../../components/text-box";
@@ -49,10 +48,6 @@ export default function Home() {
                         <div className="col-02 container-child-plan-images">
                             <img src={pgtoUnique} alt="services" />
                             <a href="https://bit.ly/mensal-soluciona" className="default-cta-button">Adquirir plano</a>
-                        </div>
-                        <div className="col-01 container-child-plan-images">
-                            <img src={pgtoMounth} alt="services" />
-                            <a href="https://bit.ly/pgto-unico-soluciona" className="default-cta-button">Adquirir plano</a>
                         </div>
                     </div>
                 </section>
