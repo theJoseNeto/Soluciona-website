@@ -10,21 +10,30 @@ header{
 }
 
 .contact-button {
-    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: fixed;
     right: 35px;
     bottom: 50px;
     text-align: center;
-    border: none;
-    padding: 5px 20px;
-    border-radius: 10%;
-    background: var(--cta-buttons-color);
-    font-weight: 600;
     cursor: pointer;
     text-decoration: none;
     color: white;
     cursor: pointer;
+    
+}
 
+.contact-button p{
+    color: var(--cta-buttons-color);
+}
+
+.wpp-button{
+    background: var(--cta-buttons-color);
+    font-size: 55px;
+    border-radius: 100%;
+    padding:  10px;
 }
 
 @media all and (min-width : 786px) {

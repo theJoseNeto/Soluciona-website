@@ -47,7 +47,7 @@ export default function Home() {
                     <div className="container-plan-images-row-02">
                         <div className="col-02 container-child-plan-images">
                             <img src={pgtoUnique} alt="services" />
-                            <a href="https://bit.ly/mensal-soluciona" className="default-cta-button">Adquirir plano</a>
+                            <a href="https://bit.ly/agregadorDeLink-soluciona" className="default-cta-button">Adquirir plano</a>
                         </div>
                     </div>
                 </section>
