@@ -1,8 +1,6 @@
 import "./homePage.css";
 import '../../styles/global.css';
 
-import pgtoUnique from '../../assets/images/col01.jpg';
-
 import Header from "../../components/header";
 import TextBox from "../../components/text-box";
 import { Footer } from "../../components/footer";
