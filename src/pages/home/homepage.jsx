@@ -7,7 +7,7 @@ import Header from "../../components/header";
 import TextBox from "../../components/text-box";
 import { Footer } from "../../components/footer";
 
-import { AiOutlineArrowDown } from 'react-icons/ai';
+import { AiOutlineArrowDown, AiFillCheckCircle, AiFillCloseCircle } from 'react-icons/ai';
 
 export default function Home() {
 
@@ -18,8 +18,8 @@ export default function Home() {
                 <div className="cta-container-title">
                     <h1 className="cta-title">A soluciona pode te ajudar ainda hoje.</h1>
                     <div className="container-arrow">
-                        <p>Em poucos cliques você pode ter o que seu negócio precisa.</p>
-                        <p><strong>Saiba mais.</strong></p>
+                        <p>Vamos dar uma olhada no que seu negócio precisa.</p>
+                        <p><strong>clique ou deslize para baixo.</strong></p>
                         <a className="arrow-icon" href="#text-boxes">
                             <AiOutlineArrowDown />
                         </a>
@@ -27,29 +27,93 @@ export default function Home() {
                 </div>
                 <section id="text-boxes" className="container-text-box">
                     <TextBox
-                        title="Onde está o problema?"
-                        text='Muitos comerciantes ainda estão presos à mentalidade de que seu comércio local funciona a base do boca a boca. A pandemia veio e mostrou que isso está errado, sem soluções tecnológicas seu comércio não vai pra frente.' />
+                        title="O que você aprendeu com a pandemia?"
+                        text='A pandemia nos mostrou a importância da internet. Os pequenos comerciantes que sobreviveram a esses tempos difíceis e ainda estão vendendo, pode ter certeza que eles estavam bem posicionados no digital.' />
                     <TextBox
-                        title='Até mesmo os pequenos comerciantes podem'
-                        text='A soluciona veio para democratizar o acesso a serviços em que o pequeno e médio empreendedor consegue obter os mecanismos básicos para funcionar na internet pagando pouco. Role a tela e conheça os serviços disponíveis.' />
+                        title='Eu sei o que você deve estar pensando...'
+                        text='"Esse pessoal deve ter gasto rios de dinheiro pra estar na internet”. Bom, alguns sim. E foi pensando em ajudar aqueles que tem poucas condições e/ou não sabem usar esse negócio de internet que a soluciona foi criada.' />
                 </section>
-                <section className="container-plan-images">
+
+                <section className="container-plans">
+
                     <div className="container-plan-images-row-01">
+
                         <div className="product-name">
-                            <h2>Agregador de links</h2>
+                            <h2>Pacote low-level</h2>
 
                             <p>
-                                Você no controle. Direcione seus cliente para onde quiser. 
-                                Veja um exemplo clicando <a href="https://minhastack.slcn.app">aqui</a> 
+                                Então você quer começar de vagar? Vamos nessa!
                             </p>
                         </div>
-                    </div>
-                    <div className="container-plan-images-row-02">
-                        <div className="col-02 container-child-plan-images">
-                            <img src={pgtoUnique} alt="services" />
-                            <a href="https://api.whatsapp.com/send/?phone=5581983084339&text=Ol%C3%A1%2C+acabei+de+acessar+o+site+e+gostaria+de+entender+mais+sobre+a+soluciona+e+o+servi%C3%A7o+oferecido.+Poderia+me+explicar+um+pouco+mais%3F&app_absent=0" className="default-cta-button">Adquirir plano</a>
+
+                        <div className="low-level-pack">
+                            <ul>
+                                <li> - <s> Site institucional</s> <AiFillCloseCircle /></li>
+                                <li> - <s>Como lucrar pelo ifood (caso seu negócio venda comida e bebida) </s><AiFillCloseCircle /></li>
+                                <li> - <s>Como se posicionar de forma estratégica no instagram </s><AiFillCloseCircle /></li>
+                                <li> - <s>Mentoria de como posicionar seu negócio no Google (apareça no Google maps!)</s><AiFillCloseCircle /></li>
+                                <li> - Transforme seu whatsapp Bussiness em uma máquina de vendas <AiFillCheckCircle /></li>
+                                <li> - Mentoria de como melhorar seu serviço de atendimento ao cliente.<AiFillCheckCircle /></li>
+                            </ul>
+                            <div className="price"><p><strong>R$50,00 (pgto único)</strong></p></div>
                         </div>
+
+
                     </div>
+
+                    <div className="container-plan-images-row-01 box-emphasis">
+
+                        <div className="product-name">
+                            <h2>Pacote empreendedor PRO</h2>
+
+                            <p>(RECOMENDADO) <br/>
+                                E aí, vai perder? 
+                            </p>
+                        </div>
+
+                        <div className="low-level-pack">
+                            <ul>
+                                <li> -  Site institucional <AiFillCheckCircle /></li>
+                                <li> - Como lucrar pelo ifood (caso seu negócio venda comida e bebida) <AiFillCheckCircle /></li>
+                                <li> - Como se posicionar de forma estratégica no instagram <AiFillCloseCircle /></li>
+                                <li> - Mentoria de como posicionar seu negócio no Google (apareça no Google maps!) <AiFillCheckCircle /></li>
+                                <li> - Transforme seu whatsapp Bussiness em uma máquina de vendas <AiFillCheckCircle /></li>
+                                <li> - Mentoria de como melhorar seu serviço de atendimento ao cliente. <AiFillCheckCircle /></li>
+                            </ul>
+                            <div className="price"><p><strong>R$25,00 (pgto mensal)</strong></p></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="container-plan-images-row-01">
+
+                        <div className="product-name">
+                            <h2>Pacote mid-level</h2>
+
+                            <p>
+                                A coisa está ficando boa...
+                            </p>
+                        </div>
+
+                        <div className="low-level-pack">
+                            <ul>
+                                <li> - <s> Site institucional</s> <AiFillCloseCircle /></li>
+                                <li> - <s>Como lucrar pelo ifood (caso seu negócio venda comida e bebida) </s><AiFillCloseCircle /></li>
+                                <li> - <s>Como se posicionar de forma estratégica no instagram </s><AiFillCloseCircle /></li>
+                                <li> - Mentoria de como posicionar seu negócio no Google (apareça no Google maps!)<AiFillCheckCircle /></li>
+                                <li> - Transforme seu whatsapp Bussiness em uma máquina de vendas <AiFillCheckCircle /></li>
+                                <li> - Mentoria de como melhorar seu serviço de atendimento ao cliente.<AiFillCheckCircle /></li>
+                            </ul>
+                            <div className="price"><p><strong>R$150,00 (pgto único)</strong></p></div>
+
+                        </div>
+
+                    </div>
+
+
+
                 </section>
             </div>
             <Footer />
