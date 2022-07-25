@@ -1,6 +1,7 @@
 import "./homePage.css";
 import '../../styles/global.css';
 
+
 import Header from "../../components/header";
 import TextBox from "../../components/text-box";
 import { Footer } from "../../components/footer";
@@ -40,7 +41,7 @@ export default function Home() {
                             <h2>Pacote low-level</h2>
 
                             <p>
-                                Então você quer começar de vagar? Vamos nessa!
+                                Então você quer começar devagar? Vamos nessa!
                             </p>
                         </div>
 
@@ -64,8 +65,7 @@ export default function Home() {
                         <div className="product-name">
                             <h2>Pacote empreendedor PRO</h2>
 
-                            <p>(RECOMENDADO) <br/>
-                                E aí, vai perder? 
+                            <p>(RECOMENDADO)
                             </p>
                         </div>
 
